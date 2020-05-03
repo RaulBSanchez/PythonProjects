@@ -4,6 +4,6 @@ class Settings:
         """Initial Game Settings"""
         # Screen settings
         self.bg_color = [230, 230, 230]
-        self.screen_width = 1200
-        self.screen_length = 800
+        self.screen_width = 1000
+        self.screen_length = 400
 
