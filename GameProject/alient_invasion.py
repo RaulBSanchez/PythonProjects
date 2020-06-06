@@ -32,6 +32,7 @@ class AlienInvasion:
 
         self.play_button = Button(self, "Juega")
 
+
     def run_game(self):
         """Start the main loop for the game"""
 
@@ -43,7 +44,8 @@ class AlienInvasion:
                 self.ship.update()
                 self._update_bullet()
                 self._update_aliens()
-                self._update_screen()
+
+            self._update_screen()
             # self.screen.fill(self.settings.background_color)
             # make the most recently drawn screen visible
 
@@ -65,6 +67,8 @@ class AlienInvasion:
 
         if not self.stats.game_active:
             self.play_button.draw_button()
+
+
         pygame.display.flip()
 
 
